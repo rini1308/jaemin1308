@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rini Rahayu Personal Website</title>
+</head>
+
+<body>
+    <center>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="Cvrini.pdf">Download CV</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+    </nav>
+
+    <hr />
+
+    <div>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"/>
+            <br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+    <head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Passowrd..." />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+
+    <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2023 Rini Rahayu.</p>
+    </footer>
+    </center>
+</body>
+</html>
